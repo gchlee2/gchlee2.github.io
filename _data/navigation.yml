@@ -2,6 +2,8 @@
 main:
   - title: "Home"
     url: https://gchlee2.github.io/
+  - title: "Category"
+    url: /categories
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -9,4 +11,4 @@ main:
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
-  #   url: /sitemap/
+  #   url: /sitemap/``
