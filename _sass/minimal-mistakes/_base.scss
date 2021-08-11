@@ -132,11 +132,12 @@ a {
   &:focus {
     @extend %tab-focus;
   }
-
+  /*
+  2021-08-11 폰트 색상이 정삭적으로 노출되지 않아 주석
   &:visited {
     color: $link-color-visited;
   }
-
+  */
   &:hover {
     color: $link-color-hover;
     outline: 0;

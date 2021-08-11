@@ -281,7 +281,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: home
+      layout: single
       sidebar_main: true
       author_profile: true
       read_time: false

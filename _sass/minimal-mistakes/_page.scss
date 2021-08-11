@@ -315,6 +315,10 @@ body {
    ========================================================================== */
 
 .page__taxonomy {
+
+  font-size: 0.8rem;
+  margin: 0.25rem 0;
+
   .sep {
     display: none;
   }
@@ -322,21 +326,60 @@ body {
   strong {
     margin-right: 10px;
   }
+  
 }
 
 .page__taxonomy-item {
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 8px;
-  padding: 5px 10px;
+  padding: 3px 8px;
   text-decoration: none;
-  border: 1px solid mix(#000, $border-color, 25%);
-  border-radius: $border-radius;
+  border: 1px solid #373C3F;
+  border-radius: 4px;
+  font-family: "Coming Soon",Georgia,Times,serif;
 
+  &.p-category {
+    background-color: #6d7275;
+    color: #ffc005;
+  }
+  &.p-tags {
+    background-color: #4D5357;
+    color: #FFBF00;
+  }
+  
   &:hover {
     text-decoration: none;
     color: $link-color-hover;
   }
+}
+
+.page__taxonomy-item-category{
+  display: inside;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  padding: 3px 8px;
+  text-decoration: none;
+  border: 1px solid #373C3F;
+  border-radius: 4px;
+  background-color: #6d7275;
+  font-family: "Coming Soon",Georgia,Times,serif;
+  color: #ffc005;
+  font-size: 0.65rem;
+}
+
+.page__taxonomy-item-tag{
+  display: inside;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  padding: 3px 8px;
+  text-decoration: none;
+  border: 1px solid #373C3F;
+  border-radius: 4px;
+  background-color: #4D5357;
+  font-family: "Coming Soon",Georgia,Times,serif;
+  color: #FFBF00;
+  font-size: 0.65rem;
 }
 
 .taxonomy__section {
@@ -562,3 +605,5 @@ body {
     }
   }
 }
+
+
