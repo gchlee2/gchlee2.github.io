@@ -62,7 +62,7 @@
   }
 
   img {
-    width: 100%;
+    max-width: 100%;
 
     &.emoji {
       width: 20px;
@@ -130,17 +130,22 @@
   @include breakpoint($large) {
     display: block;
     width: auto;
-    height: auto;
+    //height: auto; 
+    //사진크기 조정을 위해 수정 및 추가 
+    height: 9rem;
+    overflow: hidden;
   }
 
   img {
+    /* 2021-08-11 프로필 사진 직사각형으로 변경 및 액자 선 제거
     max-width: 110px;
-    border-radius: 50%;
-
+    border-radius: 5%;
+   
     @include breakpoint($large) {
       padding: 5px;
       border: 1px solid $border-color;
     }
+     */
   }
 }
 
