@@ -285,7 +285,7 @@ defaults:
       sidebar_main: true
       author_profile: true
       read_time: false
-      comments: # true
-      share: true
-      related: true
+      comments: true
+      share: false
+      related: false
       og_image: "assets/images/ogImage.png"
